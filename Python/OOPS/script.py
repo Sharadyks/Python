@@ -1,4 +1,4 @@
-class Dog:
+'''class Dog:
     def __init__(self,name,breed,owner):
         self.name= name
         self.breed = breed
@@ -26,4 +26,32 @@ print(dog1.owner.name)
 dog2 = Dog("Freya","Hi",owner2)
 dog2.bark()
 print(dog2.name)
-print(dog2.breed)
+print(dog2.breed)'''
+
+
+'''class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old")
+
+person1 = Person("Alice",30)
+person1.greet()'''
+
+
+'''class User:
+    def __init__(self, username, email,password):
+        self.username = username
+        self.email = email
+        self.password = password
+
+    def greet(self,user):
+        print(f"Sending message to {user.username}: Hi {user.username}, it's {self.username}")
+
+user1 = User("Sharad","ksfbd29@gmail.com","rdd******")
+user2 = User("Rohan","ysfbd","dsdbv***")
+user1.greet(user2)'''
+
+
